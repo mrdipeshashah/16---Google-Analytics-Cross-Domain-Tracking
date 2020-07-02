@@ -1,0 +1,443 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-07-02 15:05:23",
+    "containerVersion": {
+        "path": "accounts/6001468157/containers/31736925/versions/0",
+        "accountId": "6001468157",
+        "containerId": "31736925",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6001468157/containers/31736925",
+            "accountId": "6001468157",
+            "containerId": "31736925",
+            "name": "Testing Sites",
+            "publicId": "GTM-TKS9GX9",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1592948635061",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6001468157/containers/31736925/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "tagId": "6",
+                "name": "Live Google Analytics Pageview",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useEcommerceDataLayer",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "allowLinker"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "autoLinkDomains",
+                        "value": "dipeshshah.com, germanautoengineering.co.uk"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{Live Google Analytics ID}}"
+                    }
+                ],
+                "fingerprint": "1593437289733",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "4",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "variableId": "5",
+                "name": "Live Google Analytics ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-170577592-1"
+                    }
+                ],
+                "fingerprint": "1592949213413",
+                "parentFolderId": "3",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "3",
+                "name": "Platform Variables",
+                "fingerprint": "1592948902275"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "4",
+                "name": "Google Analytics",
+                "fingerprint": "1592948902276"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "7",
+                "name": "DoubleClick",
+                "fingerprint": "1592948902279"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "8",
+                "name": "Facebook",
+                "fingerprint": "1592948902280"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "9",
+                "name": "Triggers",
+                "fingerprint": "1592948902281"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "10",
+                "name": "Google Adwords",
+                "fingerprint": "1592948902281"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "11",
+                "name": "Other Tags",
+                "fingerprint": "1592948902282"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "folderId": "12",
+                "name": "Data Layer Variables",
+                "fingerprint": "1592948902283"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CLICK_ELEMENT",
+                "name": "Click Element"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "FORM_ELEMENT",
+                "name": "Form Element"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "FORM_CLASSES",
+                "name": "Form Classes"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "FORM_TARGET",
+                "name": "Form Target"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "FORM_URL",
+                "name": "Form URL"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "FORM_TEXT",
+                "name": "Form Text"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "ERROR_MESSAGE",
+                "name": "Error Message"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "ERROR_URL",
+                "name": "Error URL"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "ERROR_LINE",
+                "name": "Error Line"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "NEW_HISTORY_FRAGMENT",
+                "name": "New History Fragment"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "OLD_HISTORY_FRAGMENT",
+                "name": "Old History Fragment"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "NEW_HISTORY_STATE",
+                "name": "New History State"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "OLD_HISTORY_STATE",
+                "name": "Old History State"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "HISTORY_SOURCE",
+                "name": "History Source"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "DEBUG_MODE",
+                "name": "Debug Mode"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "RANDOM_NUMBER",
+                "name": "Random Number"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "HTML_ID",
+                "name": "HTML ID"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "ENVIRONMENT_NAME",
+                "name": "Environment Name"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_PROVIDER",
+                "name": "Video Provider"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_URL",
+                "name": "Video URL"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_TITLE",
+                "name": "Video Title"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_DURATION",
+                "name": "Video Duration"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_PERCENT",
+                "name": "Video Percent"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_VISIBLE",
+                "name": "Video Visible"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_STATUS",
+                "name": "Video Status"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "VIDEO_CURRENT_TIME",
+                "name": "Video Current Time"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "SCROLL_DEPTH_THRESHOLD",
+                "name": "Scroll Depth Threshold"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "SCROLL_DEPTH_UNITS",
+                "name": "Scroll Depth Units"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "SCROLL_DEPTH_DIRECTION",
+                "name": "Scroll Direction"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "ELEMENT_VISIBILITY_RATIO",
+                "name": "Percent Visible"
+            },
+            {
+                "accountId": "6001468157",
+                "containerId": "31736925",
+                "type": "ELEMENT_VISIBILITY_TIME",
+                "name": "On-Screen Duration"
+            }
+        ],
+        "fingerprint": "1593702323486",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6001468157/containers/31736925/versions/0?apiLink=version"
+    }
+}
